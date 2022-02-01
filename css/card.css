@@ -1,0 +1,44 @@
+.title-wrap-subtitle-text p {
+  font-size: 14px;
+  text-align: center;
+  color: #86878B;
+}
+
+.title-wrap-subtitle-border {
+  margin: 34px 553px;
+  border-top: 1px solid #e72424;
+}
+
+.card-wrap {
+  overflow: hidden;
+  width: 350px;
+  padding-top: 68px;
+}
+
+.content-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-wrap-icon {
+  border-radius: 50%;
+  border: 1px solid #e72424;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+}
+
+.card-wrap-text {
+  padding: 30px;
+}
+
+.card-wrap-icon img {
+  padding-top: 22px;
+  margin: auto;
+  display: block;
+}
+
+.card-wrap-text__title {
+  margin: 30px auto 16px;
+  text-align: center;
+}
