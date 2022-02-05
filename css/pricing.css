@@ -1,0 +1,44 @@
+.list-wrap {
+  display:flex;
+  justify-content: space-around;
+}
+
+
+.list-wrap-table-row {
+  text-align: center;
+  overflow: hidden;
+  margin: 1px 0;
+  width: 300px;
+  font-size: 14px;
+  color: #86878B;
+  padding: 10px 0;
+}
+
+.list-wrap-table-row__name {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 11px 0;
+} 
+
+.list-wrap-table-row__price {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  padding: 30px 0;
+} 
+
+.list-wrap-table-row__rate {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 15px 0;
+} 
+
+.list-wrap-table {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+}
