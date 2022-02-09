@@ -1,0 +1,40 @@
+.axure {
+  background: url(../img/Photo/background_axure.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.axure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.container__axure {
+  position: relative;
+  z-index: 5;
+}
+.title-wrap__axure {
+  color: #FFFFFF;
+}
+.title-wrap-subtitle-text__axure {
+  color:rgba(255, 255, 255, 0.8);
+}
+
+.axure-content-button {
+  width: 135px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  color: #FFFFFF;
+}
