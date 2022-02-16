@@ -17,16 +17,6 @@
   z-index: 1;
 }
 
-.container__axure {
-  position: relative;
-  z-index: 5;
-}
-.title-wrap__axure {
-  color: #FFFFFF;
-}
-.title-wrap-subtitle-text__axure {
-  color:rgba(255, 255, 255, 0.8);
-}
 
 .axure-content-button {
   width: 135px;
@@ -37,4 +27,12 @@
   margin: auto;
   font-size: 15px;
   color: #FFFFFF;
+}
+
+#axure-title {
+  margin: auto;
+}
+
+.title-wrap-item__axure {
+  width: 560px;
 }

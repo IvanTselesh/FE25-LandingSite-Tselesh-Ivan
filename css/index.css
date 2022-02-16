@@ -4,6 +4,11 @@
 @import url(./customer.css);
 @import url(./axure.css);
 @import url(./footer.css);
+@import url(./header.css);
+@import url(./social.css);
+@import url(./icons.css);
+@import url(./first-screen.css);
+@import url(./features.css);
 
 * {
   padding: 0;
@@ -21,6 +26,8 @@ section {
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  position: relative;
+  z-index: 5;
 }
 
 html {
@@ -28,15 +35,12 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.title-wrap {
-  width: 800px;
-  font-size: 36px;
-  line-height: 42px;
-  text-transform: uppercase;
-  text-align: center;
-  margin: auto;
-  color: #212121;
-  font-family: 'Raleway', sans-serif;
+h1 {
+  display: inline-block;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 .title-wrap-subtitle {
@@ -54,4 +58,41 @@ html {
   background-color: #e72424;
   display: block;
   margin: 34px auto;
+}
+
+.title-wrap__modified {
+  color: #FFFFFF;
+}
+.title-wrap-subtitle-text__modified {
+  color:rgba(255, 255, 255, 0.8);
+}
+
+.title-wrap-subtitle__modified::before {
+  content: "";
+  width: 65px;
+  height: 1px;
+  background-color: #FFFFFF;
+  display: block;
+  margin: 34px auto;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 670px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+ }
+
+ #button {
+  width: 135px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  display: block;
+  font-size: 15px;
+  color: #FFFFFF;
 }
