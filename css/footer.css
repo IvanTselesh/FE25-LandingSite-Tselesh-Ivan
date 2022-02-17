@@ -1,10 +1,14 @@
 .footer {
   background: #000000;
+  padding: 20px 0;
+}
+
+.footer-icons {
+  margin-bottom: 20px;
 }
 
 .footer-text {
   text-align: center;
-  padding: 15px 0px;
   color: #FFFFFF80;
   font-size: 12px;
 }
@@ -12,83 +16,70 @@
 .footer-icons-list {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
 }
 
 .footer-icons-list-item__facebook {
   content: "\f39e";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
-  color: #86878B;
 }
 
 .footer-icons-list-item__twitter {
   content: "\f099";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
-  color: #86878B;
 }
 
 .footer-icons-list-item__google {
   content: "\f0d5";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
-  color: #86878B;
 }
 
 .footer-icons-list-item__pinterest {
   content: "\f0d2";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
-  color: #86878B;
 }
 
 .footer-icons-list-item__instagram {
   content: "\f16d";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
-  color: #86878B;
 }
 
 .footer-icons-list-item__stumbleupon {
   content: "\f1a4";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
-  color: #86878B;
 }
 
 .footer-icons-list-item__RSS {
   content: "\f09e";
   font-family: "Font Awesome 5 Free";
   font-size: 20px;
-  font-weight: 900;
-  display: inline-block;
   margin-left: 30px;
+}
+
+/* .footer-icons-list-item i {
+  box-shadow: 0 0 10px #ec7979;
+} */
+
+.footer-icons-list-item-button {
   color: #86878B;
 }
 
-.footer-icons-list-item:hover {
+.footer-icons-list-item-button:hover {
   color: #ec7979;
 }
 
-.footer-icons-list-item i {
-  box-shadow: 0 0 10px #ec7979;
+.footer-icons-list-item-button {
+  text-shadow: 0 0 10px #ec7979;
 }
+

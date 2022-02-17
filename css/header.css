@@ -1,52 +1,47 @@
 .header {
   background: #000000;
+  padding: 20px 0;
 }
 
-.container-header {
-  color: #FFFFFF;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-
-.container-header::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.55);
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-} 
-
-.logo {
+.header-row {
   display: flex;
   align-items: center;
-  padding: 0px 15px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  position: relative;
-  z-index: 5;
-}
-
-.navigation-list {
-  display: flex;
   justify-content: space-between;
 }
 
-.navigation-list-item {
-  display: inline-block;
-  margin: 25px;
+.header-row-logo {
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
 }
 
-.logo::after {
+.header-row-navigation-list {
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-row-navigation-list-item {
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header-row-logo::after {
   content: "IT";
   font-size: 30px;
   color: #ec7979;
   display: block;
 }
 
-li:hover::after {
-  color: #ec7979;
+
+.header-row-navigation-list-item:hover {
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  display: block;
 }

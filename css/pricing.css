@@ -1,3 +1,7 @@
+.pricing {
+  background: #F5F5F5;
+}
+
 .list-wrap {
   display:flex;
   justify-content: space-around;
@@ -15,7 +19,8 @@
 .list-wrap-table-row {
   text-align: center;
   overflow: hidden;
-  margin: 1px 0;
+  margin: 4px 0;
+  background: #FFFFFF;
   font-size: 14px;
   color: #86878B;
   padding: 10px 0;

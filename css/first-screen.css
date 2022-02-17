@@ -18,7 +18,17 @@
   z-index: 1;
 }
 
-h1::after {
+#name {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: left;
+
+}
+
+#name::after {
   content: "IT";
   font-size: 60px;
   color: #ec7979;
@@ -28,28 +38,38 @@ h1::after {
 .container__first-screen {
   display: flex;
   flex-flow: column wrap;
-  max-height: 600px;
   justify-content: space-between;
   position: relative;
   z-index: 5;
 }
 
-.title-wrap__modified {
-  width: 560px;
-  text-align: left;
+.first-screen-row {
   display: flex;
-  text-align: left;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-#first-screen {
-  width: 560px;
-  text-align: left;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* probably parameters can be different,just for example */
-.first-screen-form {
+.first-screen-row-right {
   width: 370px;
-  height: 370px;
+}
+
+.first-screen-row-left-column-subtitle::before {
+  content: "";
+  width: 65px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin: 34px 0;
+  position: relative;
+  z-index: 5;
+}
+
+.first-screen-row-left-column-subtitle-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.first-screen-row-left-column-title {
+  margin-bottom: 30px;
 }

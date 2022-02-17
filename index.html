@@ -10,46 +10,52 @@
 <body>
   <header class="header">
     <div class="container container-header">
-      <span class="logo">AX</span>
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-list-item">
+      <div class="header-row">
+        <span class="header-row-logo">AX</span>
+    <nav class="header-row-navigation">
+      <ul class="header-row-navigation-list">
+        <li class="header-row-navigation-list-item">
           <a name="#">Features</a>
         </li>
-        <li class="navigation-list-item">
+        <li class="header-row-navigation-list-item">
           <a name="#">About</a>
         </li>
-        <li class="navigation-list-item">
-          <a href="#">Pricing</a>
+        <li class="header-row-navigation-list-item">
+          <a name="#">Pricing</a>
         </li>
-        <li class="navigation-list-item">
+        <li class="header-row-navigation-list-item">
           <a name="#">Reviews</a>
         </li>
-        <li class="navigation-list-item">
+        <li class="header-row-navigation-list-item">
           <a name="#">Contact</a>
         </li>
       </ul>
     </nav>
+      </div>
     </div>
   </header>
   <section class="first-screen">
     <div class="container container__first-screen">
-      <h1>AX</h1>
-      <div class="first-screen-column">
-        <div class="title-wrap title-wrap__modified">
-          <h2 id="first-screen">Modern axure template for beautiful prototypes</h2>
-          <div class="title-wrap-subtitle title-wrap-subtitle__modified">
-            <div class="title-wrap-subtitle-text title-wrap-subtitle-text__modified">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus?
-              </p>
+      <div class="first-screen-row">
+        <div class="first-screen-row-left">
+          <span id="name">AX</span>
+          <div class="first-screen-row-left-column-title">
+            <h1 id="first-screen">Modern axure template for beautiful prototypes</h1>
+            <div class="first-screen-row-left-column-subtitle">
+              <div class="first-screen-row-left-column-subtitle-text">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus?
+                </p>
+              </div>
             </div>
           </div>
+          <div class="first-screen-row-left-column-button">
+            <button class="first-screen-row-left-column-button-item" id="button">Download</button>
+          </div>
         </div>
-        <div class="first-screen-column-button">
-          <button class="first-screen-column-button-item" id="button">Download</button>
+        <div class="first-screen-row-right">
+          <div class="first-screen-row-right-form"></div>
         </div>
       </div>
-      <div class="first-screen-form"></div>
     </div>
   </section>
   <section class="social">
@@ -63,25 +69,39 @@
       <div class="social-icons">
         <ul class="social-icons-list">
           <li class="social-icons-list-items social-icons-list-items__facebook">
-            <i class="fab fa-facebook-f"></i>
+            <a class="social-icons-list-items-button" href="https://ru-ru.facebook.com/">
+              <i class="fab fa-facebook-f"></i>
+            </a>
           </li>
           <li class="social-icons-list-items social-icons-list-items__twitter">
-            <i class="fab fa-twitter"></i>
+            <a class="social-icons-list-items-button" href="https://twitter.com/?lang=ru">
+              <i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li class="social-icons-list-items social-icons-list-items__google">
-            <i class="fab fa-google-plus-g"></i>
+            <a class="social-icons-list-items-button" href="https://www.google.com/">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
           </li>
           <li class="social-icons-list-items social-icons-list-items__pinterest">
-            <i class="fab fa-pinterest"></i>
+            <a class="social-icons-list-items-button" href="https://www.pinterest.com/">
+              <i class="fab fa-pinterest"></i>
+            </a>
           </li>
           <li class="social-icons-list-items social-icons-list-items__instagram">
-            <i class="fab fa-instagram"></i>
+            <a class="social-icons-list-items-button" href="https://www.instagram.com/">
+              <i class="fab fa-instagram"></i>
+            </a>
           </li>
           <li class="social-icons-list-items social-icons-list-items__stumbleupon">
-            <i class="fab fa-stumbleupon"></i>
+            <a class="social-icons-list-items-button" href="https://www.stumbleupon.com/">
+              <i class="fab fa-stumbleupon"></i>
+            </a>
           </li>
           <li class="social-icons-list-items social-icons-list-items__RSS">
-            <i class="fas fa-rss"></i>
+            <a class="social-icons-list-items-button" href="https://rss.com/">
+              <i class="fas fa-rss"></i>
+            </a>
           </li>
         </ul>
       </div>
@@ -89,34 +109,32 @@
   </section>
   <section class="features">
     <div class="container container-features">
-      <div class="features-content">
-        <div class="features-content-tabs">
-          <div class="features-content-tabs-wrap">
-            <button class="features-content-tabs-item">tab 1</button>
-            <button class="features-content-tabs-item">tab 2</button>
-            <button class="features-content-tabs-item">tab 3</button>
-          </div>
-          <div class="features-content-wrap">
-            <div class="features-content-wrap-item features-content-wrap-item__tab1">
-              <h3>Tabs with soft transitioning effect.</h3>
+      <div class="features-wrap">
+        <div class="features-wrap-tabs">
+          <button class="features-wrap-tabs-item">tab 1</button>
+          <button class="features-wrap-tabs-item">tab 2</button>
+          <button class="features-wrap-tabs-item">tab 3</button>
+        </div>
+        <div class="features-wrap-content">
+          <div class="features-wrap-content-article">
+            <h3>Tabs with soft transitioning effect.</h3>
+            <div class="features-wrap-content-article-text">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis nam sunt, commodi ducimus quam quo, dolorum temporibus, fuga tenetur itaque. Consequuntur omnis nihil, quis fuga iure cum quibusdam sunt illum laborum, temporibus aperiam officiis voluptate alias labore iste ipsam possimus nam commodi ipsa quas illo quae veritatis.</p>
             </div>
-            <div class="features-content-wrap-item features-content-wrap-item__tab2">
-              <h3>Any title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at nisi sequi laborum possimus? Quia laudantium laboriosam necessitatibus placeat, maxime eligendi, velit illum natus iusto dolorum quos ex quae, voluptate ut itaque nobis vero dolores ipsam! Cumque totam aspernatur similique laborum voluptas nihil voluptates optio amet! Delectus, suscipit?</p>
+            <h3 id="article2">Any title</h3>
+            <div class="features-wrap-content-article-text" id="article2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis nam sunt, commodi ducimus quam quo, dolorum temporibus, fuga tenetur itaque. Consequuntur omnis nihil, quis fuga iure cum quibusdam sunt illum laborum, temporibus aperiam officiis voluptate alias labore iste ipsam possimus nam commodi ipsa quas illo quae veritatis.</p>
             </div>
-            <div class="features-content-wrap-item features-content-wrap-item__tab3">
-              <h3>2any Title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quos iusto modi ullam porro earum accusamus atque similique recusandae laudantium? Sunt quis consequuntur ad voluptatum in at eius quisquam iure pariatur dolorum repudiandae enim, eveniet mollitia ipsa commodi accusantium ea esse sit corporis eaque ex! A, optio in.</p>
+            <h3 id="article3">2any Title</h3>
+            <div class="features-wrap-content-article-text" id="article3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perspiciatis nam sunt, commodi ducimus quam quo, dolorum temporibus, fuga tenetur itaque. Consequuntur omnis nihil, quis fuga iure cum quibusdam sunt illum laborum, temporibus aperiam officiis voluptate alias labore iste ipsam possimus nam commodi ipsa quas illo quae veritatis.</p>
             </div>
-            <div class="features-content-wrap-button">
-              <button class="features-content-wrap-button-item">Download</button>
-            </div>
+            <button class="features-wrap-content-article-button-item">Download</button>
+          </div>
+          <div class="features-wrap-content-pic">
+            <img src="./img/Photo/features-item.png" alt="City">
           </div>
         </div>
-      </div>
-      <div class="features-pic">
-        <img src="./img/Photo/features-item.png" alt="city">
       </div>
     </div>
   </section>
@@ -162,7 +180,7 @@
     </div>
     
   </section>
-  <section class="Pricing">
+  <section class="pricing">
     <div class="container">
       <div class="title-wrap">
         <h2 id="pricing">Pricing options</h2>
@@ -227,7 +245,7 @@
           </div>
           <div class="customer-wrap-comment-author">
             <div class="customer-wrap-comment-author-photo customer-wrap-comment-author-photo__left">
-              <img url="./img/Photo/Benny.jpeg" alt="Ben Kowalewicz">
+              <img src="./img/Photo/Benny.jpeg" alt="Ben Kowalewicz">
             </div>
             <div class="customer-wrap-comment-author-info">
               <h3 class="customer-wrap-comment-author-info-row customer-wrap-comment-author-info-row__name">Benjamin Kowalewicz</h3>
@@ -241,7 +259,7 @@
           </div>
           <div class="customer-wrap-comment-author">
             <div class="customer-wrap-comment-author-photo customer-wrap-comment-author-photo__center">
-              <img url="./img/Photo/Rihanna.jpg" alt="Rihanna">
+              <img src="./img/Photo/Rihanna.jpg" alt="Rihanna">
             </div>
             <div class="customer-wrap-comment-author-info">
               <h3 class="customer-wrap-comment-author-info-row customer-wrap-comment-author-info-row__name">Rihanna</h3>
@@ -276,9 +294,7 @@
           </div>
         </div>
       </div>
-      <div class="axure-content">
-        <button class="axure-content-button" id="button">Download</button>
-      </div>
+      <button class="axure-content-button" id="button">Download</button>
     </div>
   </section>
   <footer class="footer">
@@ -286,25 +302,39 @@
       <div class="footer-icons">
         <ul class="footer-icons-list">
           <li class="footer-icons-list-item footer-icons-list-item__facebook">
-            <i class="fab fa-facebook-f"></i>
+            <a class="footer-icons-list-item-button" href="https://ru-ru.facebook.com/">
+              <i class="fab fa-facebook-f"></i>
+            </a>
           </li>
           <li class="footer-icons-list-item footer-icons-list-item__twitter">
-            <i class="fab fa-twitter"></i>
+            <a class="footer-icons-list-item-button" href="https://twitter.com/?lang=ru">
+              <i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li class="footer-icons-list-item footer-icons-list-item__google">
-            <i class="fab fa-google-plus-g"></i>
+            <a class="footer-icons-list-item-button" href="https://www.google.com/">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
           </li>
           <li class="footer-icons-list-item footer-icons-list-item__pinterest">
-            <i class="fab fa-pinterest"></i>
+            <a class="footer-icons-list-item-button" href="https://www.pinterest.com/">
+              <i class="fab fa-pinterest"></i>
+            </a>
           </li>
           <li class="footer-icons-list-item footer-icons-list-item__instagram">
-            <i class="fab fa-instagram"></i>
+            <a class="footer-icons-list-item-button" href="https://www.instagram.com/">
+              <i class="fab fa-instagram"></i>
+            </a>
           </li>
           <li class="footer-icons-list-item footer-icons-list-item__stumbleupon">
-            <i class="fab fa-stumbleupon"></i>
+            <a class="footer-icons-list-item-button" href="https://www.stumbleupon.com/">
+              <i class="fab fa-stumbleupon"></i>
+            </a>
           </li>
           <li class="footer-icons-list-item footer-icons-list-item__RSS">
-            <i class="fas fa-rss"></i>
+            <a class="footer-icons-list-item-button" href="https://rss.com/">
+              <i class="fas fa-rss"></i>
+            </a>
           </li>
         </ul>
       </div>
