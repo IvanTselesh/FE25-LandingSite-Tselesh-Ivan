@@ -31,6 +31,7 @@
 .features-wrap-tabs-item:hover {
   background: #EC7979;
   border: 1px solid #EC7979;
+  transition: 0.8s;
 }
 
 .features-wrap-content-article {
@@ -52,7 +53,7 @@
   display: none;
 }
 
-.features-wrap-content-article-button-item {
+.features-wrap-content-article-button {
   width: 135px;
   height: 40px;
   background: #EC7979;
@@ -60,6 +61,7 @@
   display: block;
   font-size: 15px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 #article2 {

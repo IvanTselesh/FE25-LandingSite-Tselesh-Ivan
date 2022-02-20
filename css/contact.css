@@ -1,0 +1,40 @@
+.contact-wrap-content-form {
+  width: 40%;
+}
+
+.contact-wrap-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-wrap-content-form-item-input {
+  border: 0px;
+  outline: none;
+  border-bottom: 1px solid #BDBDBD;
+  width: 100%;
+}
+
+.contact-wrap-content-form-item {
+  margin: 0 0 35px;
+}
+
+.contact-wrap-content-form__left {
+  padding-left: 15px;
+}
+
+textarea {
+  height: 172px;
+  resize: none;
+}
+
+#button-modified {
+  width: 160px;
+  height: 40px;
+  background: #EC7979;
+  border: 1px solid #EC7979;
+  display: block;
+  font-size: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin: 25px auto 0;
+}
